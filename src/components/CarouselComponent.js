@@ -2,7 +2,6 @@ import React from "react";
 import hii from "../images/hi.gif";
 import Typical from "react-typical";
 import Banner from "../images/banner-image.png";
-import Fade from "react-reveal/Fade";
 import Resume from "../images/ArbazAhmed-resume.pdf";
 
 function Jumbo() {
@@ -12,7 +11,13 @@ function Jumbo() {
         <div className="row">
           <div className="col-lg-6 col-sm-12">
             <h4 className="intro">
-              <img src={hii} className="bann" width="180px" height="180px" />
+              <img
+                src={hii}
+                alt="hii"
+                className="bann"
+                width="180px"
+                height="180px"
+              />
               <p className="hd1">my name is </p>
             </h4>
 
@@ -37,6 +42,7 @@ function Jumbo() {
             <a
               className="btn btn-warning btn-lg"
               target="_blank"
+              rel="noopener noreferrer"
               href={Resume}
               role="button"
             >
@@ -44,7 +50,7 @@ function Jumbo() {
             </a>
           </div>
           <div className="col-12 col-sm-12 col-md-5 banner-img">
-            <img src={Banner} className="bimg" />
+            <img src={Banner} alt="img-Banner" className="bimg" />
           </div>
         </div>
       </div>

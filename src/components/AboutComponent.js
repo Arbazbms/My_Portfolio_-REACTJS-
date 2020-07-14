@@ -12,7 +12,7 @@ function About() {
           <div className="row">
             <div className="col-lg-6 col-sm-12">
               <h3> </h3>
-              <Fade left>
+              <Fade bottom>
                 <div className="container">
                   <img className="img-thumbnail" src={pp} alt="Arbaz photos" />
                 </div>
@@ -20,7 +20,7 @@ function About() {
             </div>
 
             <div className="col-lg-6 col-sm-12">
-              <Fade right>
+              <Fade bottom>
                 <h3 className="hey">Hey there!</h3>
                 <p>
                   I'm Currently pursuing 2nd Computer Science & Engg in B.M.S

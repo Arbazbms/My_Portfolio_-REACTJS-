@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Column, Row } from "simple-flexbox";
 
-import android from "../images/android-studio.png";
 import bootstrap4 from "../images/bootstrap4.png";
 import C from "../images/C.png";
 import php from "../images/php.png";
@@ -10,7 +9,6 @@ import ds from "../images/ds.png";
 import github from "../images/github.png";
 import html5 from "../images/html5.png";
 import java from "../images/java.png";
-import jquery from "../images/jquery.png";
 import js from "../images/js.png";
 import linux from "../images/linux.png";
 import nodejs from "../images/nodejs.png";

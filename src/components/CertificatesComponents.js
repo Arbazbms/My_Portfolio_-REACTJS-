@@ -25,7 +25,12 @@ function Certificates(props) {
             </Media>
             <Media body>
               <Media heading>{cer.title}</Media>
-              <a className="btn btn-primary" href={cer.link} target="_blank">
+              <a
+                className="btn btn-primary"
+                href={cer.link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 LINK
               </a>
             </Media>
