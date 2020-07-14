@@ -21,7 +21,7 @@ function Jumbo() {
               <p className="hd1">my name is </p>
             </h4>
 
-            <h1 className="hd1">ARBAZ AHMED!</h1>
+            <h1 className="hd1">ARBAZ AHMED!!!</h1>
             <h1 className="hd1">
               <Typical
                 steps={[
