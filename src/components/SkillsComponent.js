@@ -4,7 +4,7 @@ import { Column, Row } from "simple-flexbox";
 import android from "../images/android-studio.png";
 import bootstrap4 from "../images/bootstrap4.png";
 import C from "../images/C.png";
-import php from "../images/php.jpg";
+import php from "../images/php.png";
 import css3 from "../images/css3.png";
 import ds from "../images/ds.png";
 import github from "../images/github.png";

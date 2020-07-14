@@ -1,9 +1,9 @@
 import React from "react";
-import { Media } from "reactstrap";
 import Bms from "../images/bmslogo.jpg";
 import Sjp from "../images/sjplogo.jpg";
 import Huda from "../images/hudalogo.jpg";
 import Fade from "react-reveal/Fade";
+import { Media } from "reactstrap";
 
 function Edu() {
   return (

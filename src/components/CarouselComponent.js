@@ -43,8 +43,8 @@ function Jumbo() {
               <h2>GET CV</h2>
             </a>
           </div>
-          <div className="col-12 col-sm-12 col-md-5">
-            <img src={Banner} width="500px" height="500px" />
+          <div className="col-12 col-sm-12 col-md-5 banner-img">
+            <img src={Banner} className="bimg" />
           </div>
         </div>
       </div>

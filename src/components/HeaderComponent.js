@@ -21,7 +21,7 @@ const Header = (props) => {
         <Link to="/">
           <NavbarBrand className="text-white hn">Arbaz Ahmed</NavbarBrand>
         </Link>
-        <NavbarToggler className="tog" onClick={toggle} />
+        <NavbarToggler className="navbartog" onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
             <NavItem>

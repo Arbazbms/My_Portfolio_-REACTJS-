@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Media, Button } from "reactstrap";
 import Fade from "react-reveal/Fade";
 import LightSpeed from "react-reveal/LightSpeed";
 import { Link } from "react-router-dom";
+import Extra from "./ExtraComponent";
+
 function Certificates(props) {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   const certificates = props.certi.map((cer) => {
     return (
       <div className="hd1 m-5" id={cer.id}>
@@ -38,12 +43,15 @@ function Certificates(props) {
       <Fade Left>
         <div className="">{certificates}</div>
       </Fade>
+
+      <br />
+      <h1 className="hd1 ml-5">Scholarship Program</h1>
+      <Extra />
       <Link to="/">
         <Button className="btn btn-primary btn-lg ml-5">
           Return To Home Page
         </Button>
       </Link>
-      <br />
       <br />
     </div>
   );

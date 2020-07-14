@@ -1,17 +1,31 @@
 import React from "react";
+import Fade from "react-reveal/Fade";
+import { Media } from "reactstrap";
 
+import Abc from "../images/abc-logo.png";
 function Extra() {
   return (
     <div className="jumbotron hd1">
-      <h1>ABC-Scholarship Program</h1>
-      <div className="row">
-        <div className="col-lg-6 col-sm-12">
-          <h3>hihih</h3>
-        </div>
-        <div className="col-lg-6 col-sm-12">
-          <h3>hihih</h3>
-        </div>
-      </div>
+      <Fade left>
+        <Media>
+          <Media left href="#">
+            <Media
+              src={Abc}
+              alt="ABC"
+              width="80px"
+              height="80px"
+              className="m-2"
+            />
+          </Media>
+          <Media body>
+            <Media heading>ABC Swabhimaan Scholarship</Media>
+            Selected for ABC Swabhimaan Scholarship Program by clearing all 3
+            phases of selection process (100/100) in final coding phase test..
+            And got access to trainings worth (1.5L).
+            <p>(2020)</p>
+          </Media>
+        </Media>
+      </Fade>
     </div>
   );
 }

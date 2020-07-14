@@ -12,6 +12,7 @@ import {
   CardFooter,
 } from "reactstrap";
 import Fade from "react-reveal/Fade";
+import { Link } from "react-router-dom";
 
 function RenderCard({ item }) {
   if (item !== null) {
@@ -80,8 +81,19 @@ const Projects = (props) => {
       <Fade bottom>
         <br />
         <br />
+
         {project}
       </Fade>
+      <br />
+      <br />
+
+      <Link to="/">
+        <Button className="btn btn-primary btn-lg ml-5">
+          Return To Home Page
+        </Button>
+      </Link>
+      <br />
+      <br />
     </div>
   );
 };
