@@ -122,3 +122,7 @@ html {
   color: white;
   font-family: "Ubuntu", sans-serif;
 }
+
+.navbar-light .navbar-toggler {
+  background-color: #ffef15;
+}

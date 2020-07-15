@@ -30,37 +30,53 @@ const Header = (props) => {
               </NavLink>
             </NavItem>
             <NavItem>
-              <a className="nav-link text-white" href="#About">
+              <a className="nav-link text-white" href="#About" onClick={toggle}>
                 About
               </a>
             </NavItem>
             <NavItem className="text-white">
-              <a className="nav-link text-white" href="#skill-top">
+              <a
+                className="nav-link text-white"
+                href="#skill-top"
+                onClick={toggle}
+              >
                 Skills
               </a>
             </NavItem>
             <NavItem className="text-white">
-              <a className="nav-link text-white" href="#edu">
+              <a className="nav-link text-white" href="#edu" onClick={toggle}>
                 Education
               </a>
             </NavItem>
             <NavItem className="text-white">
-              <a className="nav-link text-white" href="#contact">
+              <a
+                className="nav-link text-white"
+                href="#contact"
+                onClick={toggle}
+              >
                 contact
               </a>
             </NavItem>
             <NavItem className="text-white">
-              <a className="nav-link text-white" href="#pnc">
+              <a className="nav-link text-white" href="#pnc" onClick={toggle}>
                 Projects&Certificates
               </a>
             </NavItem>
             <NavItem className="text-white">
-              <NavLink className="nav-link text-white" to="/projects">
+              <NavLink
+                className="nav-link text-white"
+                to="/projects"
+                onClick={toggle}
+              >
                 Projects
               </NavLink>
             </NavItem>
             <NavItem className="text-white">
-              <NavLink className="nav-link text-white" to="/certificates">
+              <NavLink
+                className="nav-link text-white"
+                to="/certificates"
+                onClick={toggle}
+              >
                 Certifications
               </NavLink>
             </NavItem>

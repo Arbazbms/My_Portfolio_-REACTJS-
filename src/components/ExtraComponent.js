@@ -20,8 +20,8 @@ function Extra() {
           <Media body>
             <Media heading>ABC Swabhimaan Scholarship</Media>
             Selected for ABC Swabhimaan Scholarship Program by clearing all 3
-            phases of selection process (100/100) in final coding phase test..
-            And got access to trainings worth (1.5L).
+            phases of selection process (100/100) in final coding test.. And got
+            access to trainings worth (1.5L).
             <p>(2020)</p>
           </Media>
         </Media>
