@@ -58,4 +58,22 @@ export const PROJECTS = [
     description: "Commmand Line interface Node application",
     github: "https://github.com/Arbazbms/CLI-NOTES_APP-using-NODEJS",
   },
+  {
+    id: 6,
+    image: "/assets/images/rest.png",
+    name: "REST-API",
+    stack: "NODEJS, EXPRESSJS, MONGODB",
+    description: "Task-Manager-REST-API",
+    github:
+      "https://github.com/Arbazbms/Task-Manger-REST-API-NODEJS-EXPRESSJS-MONGODB-/tree/master",
+  },
+  {
+    id: 7,
+    image: "/assets/images/res.jpg",
+    name: "Restaurant Application-(Coursera)",
+    stack: "REACTJS, REDUX, REACTSTRAP",
+    description:
+      "This is a simple React application that fetches the data form JSON SERVER and Renders the view in app, it uses REDUX to store State,forms (validations).",
+    github: "https://github.com/Arbazbms/ReactJS-Coursera",
+  },
 ];

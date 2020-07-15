@@ -34,6 +34,9 @@
   box-shadow: 20px 20px 20px #0d203d;
   width: 100%;
   margin-top: auto;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
 }
 
 body {
@@ -110,9 +113,6 @@ html {
   width: auto;
   max-width: 100%;
   height: auto;
-}
-
-.navbartog {
 }
 
 .proj-title {

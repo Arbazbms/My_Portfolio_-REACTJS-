@@ -21,7 +21,7 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <PageProgress color={"red"} height={50} />
+        <PageProgress color={"blue"} height={50} />
         <Header />
         <React.StrictMode>
           <Switch>

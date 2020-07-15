@@ -17,7 +17,7 @@ const Header = (props) => {
 
   return (
     <div>
-      <Navbar color="light" light expand="md" className="navcol fixed-top ">
+      <Navbar color="light" light expand="md" className="navcol fixed-top">
         <Link to="/">
           <NavbarBrand className="text-white hn">Arbaz Ahmed</NavbarBrand>
         </Link>
