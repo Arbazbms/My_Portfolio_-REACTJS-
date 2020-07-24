@@ -9,7 +9,7 @@ import {
   NavbarText,
 } from "reactstrap";
 import { NavLink, Link } from "react-router-dom";
-import Resume from "../images/ArbazAhmed-resume.pdf";
+import Resume from "../images/ArbazAhmed--RESUME.pdf";
 const Header = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 

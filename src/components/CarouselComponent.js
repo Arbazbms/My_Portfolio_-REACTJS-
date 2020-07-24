@@ -2,7 +2,7 @@ import React from "react";
 import hii from "../images/hi.gif";
 import Typical from "react-typical";
 import Banner from "../images/banner-image.png";
-import Resume from "../images/ArbazAhmed-resume.pdf";
+import Resume from "../images/ArbazAhmed--RESUME.pdf";
 
 function Jumbo() {
   return (
