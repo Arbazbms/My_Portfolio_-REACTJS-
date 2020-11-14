@@ -21,7 +21,7 @@ function Experience() {
           </Media>
           <Media body>
             <Media heading>Olcademy Company</Media>
-            Being an intern as a backend developr for 3 months <br />
+            Being an intern as a backend developer for 3 months <br />
             I Worked on Nodejs,Expressjs,mongodb,flask,mysql
             <p>July2020-October2020</p>
           </Media>
