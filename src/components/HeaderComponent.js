@@ -44,6 +44,15 @@ const Header = (props) => {
               </a>
             </NavItem>
             <NavItem className="text-white">
+              <a
+                className="nav-link text-white"
+                href="#exp"
+                onClick={toggle}
+              >
+                Experience
+              </a>
+            </NavItem>
+            <NavItem className="text-white">
               <a className="nav-link text-white" href="#edu" onClick={toggle}>
                 Education
               </a>

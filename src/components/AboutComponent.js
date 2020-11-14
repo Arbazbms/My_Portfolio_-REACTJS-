@@ -21,10 +21,10 @@ function About() {
 
             <div className="col-lg-6 col-sm-12">
               <Fade bottom>
-                <h3 className="hey">Hey there!</h3>
+                <h3 className="hey">Hey folks!</h3>
                 <p>
-                  I'm Currently pursuing 2nd Computer Science & Engg in B.M.S
-                  College of Engineering
+                  I'm Currently pursuing 3nd Computer Science & Engg in B.M.S
+                  College of Engineering-Bangalore
                 </p>
                 <p className="abbP">
                   I'm a Full Stack Developer.A programmer with good knowledge of
