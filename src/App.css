@@ -63,7 +63,6 @@ a:hover {
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   font-family: 'Slabo 27px', serif;
-  z-index: -1;
 }
 
 body {
