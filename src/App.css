@@ -115,7 +115,7 @@ html {
 }
 
 .pnc {
-  border-radius: 47px;
+  border-radius: 4px;
   background: linear-gradient(145deg, #09122a, #0b1532);
   box-shadow: 5px 5px 9px #050a18, -5px -5px 9px #0f1e46;
   color: #fff;
