@@ -7,7 +7,6 @@ import Projects from "./ProjectsComponents";
 import Certificates from "./CertificatesComponents";
 import { PROJECTS } from "../shared/projects";
 import { CERTIFICATES } from "../shared/certificates";
-import PageProgress from "react-page-progress";
 
 class Main extends Component {
   constructor(props) {
@@ -20,8 +19,7 @@ class Main extends Component {
 
   render() {
     return (
-      <div>
-        <PageProgress color={"blue"} height={50} />
+      <div className="container">
         <Header />
         <React.StrictMode>
           <Switch>
