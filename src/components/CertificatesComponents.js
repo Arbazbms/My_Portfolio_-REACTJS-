@@ -53,7 +53,7 @@ function Certificates(props) {
       <h1 className="hd1 ml-5">Scholarship Program</h1>
       <Extra />
       <Link to="/">
-        <Button className="btn btn-primary btn-lg ml-5">
+        <Button className="btn btn-primary btn-lg m-5 text-dark">
           Return To Home Page
         </Button>
       </Link>
