@@ -25,7 +25,7 @@ function Edu() {
                               <Media heading>B.M.S College Of Engg</Media>
                               Studying 2nd Year (BE) computer science and engg
                               (2019-2022)
-                              <p>8.52 sgpa</p>
+                              <p>8.78 cgpa</p>
                          </Media>
                     </Media>
                </Fade>
